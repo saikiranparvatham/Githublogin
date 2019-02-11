@@ -1,0 +1,2 @@
+spring.mvc.view.prefix=/static/static/
+spring.mvc.view.suffix=.html

@@ -1,0 +1,45 @@
+package com.moneymoney.web.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import static org.springframework.hateoas.mvc.ControllerLinkBuilder.*;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.Link;
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.moneymoney.web.entity.Transaction;
+
+@Controller
+public class WebsiteController {
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	@RequestMapping("/home")
+	public String depositForm() {
+		return "home";
+	}
+
+	@RequestMapping("/depositForm")
+	public String withdrawForm() {
+		return "DepositForm";
+	}
+	
+
+	
+	@RequestMapping("/fundtransferForm")
+	public String fundtransferForm() {
+		return "FundTransferForm";
+	}
+	
+
+}
