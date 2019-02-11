@@ -72,7 +72,7 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
 	@RequestMapping("/home")
 	public String home()
 	{
-		return "home";
+		return "home.html";
 	}
 	
 	@Override

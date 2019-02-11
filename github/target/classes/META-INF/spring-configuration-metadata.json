@@ -117,6 +117,18 @@
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "facebook.resource.jwk",
+      "sourceMethod": "public org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties.Jwk getJwk() ",
+      "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwk"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "facebook.resource.jwt",
+      "sourceMethod": "public org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties.Jwt getJwt() ",
+      "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "facebook.resource.jwt",
       "sourceMethod": "public org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties.Jwt getJwt() ",
       "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt"
@@ -327,6 +339,18 @@
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.jwk",
+      "sourceMethod": "public org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties.Jwk getJwk() ",
+      "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwk"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.jwt",
+      "sourceMethod": "public org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties.Jwt getJwt() ",
+      "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "github.resource.jwt",
       "sourceMethod": "public org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties.Jwt getJwt() ",
       "type": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt"
@@ -505,8 +529,8 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
-      "name": "facebook.client.authentication-scheme",
-      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+      "name": "facebook.client.access-token-uri",
+      "type": "java.lang.String"
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
@@ -581,6 +605,21 @@
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "facebook.client.authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.client-authentication-scheme",
       "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
     },
     {
@@ -745,7 +784,7 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
-      "name": "facebook.client.client-secret",
+      "name": "facebook.client.client-id",
       "type": "java.lang.String"
     },
     {
@@ -821,6 +860,21 @@
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "facebook.client.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.grant-type",
       "type": "java.lang.String"
     },
     {
@@ -985,7 +1039,7 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
-      "name": "facebook.client.pre-established-redirect-uri",
+      "name": "facebook.client.id",
       "type": "java.lang.String"
     },
     {
@@ -1062,6 +1116,21 @@
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "facebook.client.pre-established-redirect-uri",
       "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.pre-established-redirect-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.pre-established-redirect-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.scope",
+      "type": "java.util.List<java.lang.String>"
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
@@ -1225,6 +1294,16 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.token-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.use-current-uri",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "facebook.client.use-current-uri",
       "type": "java.lang.Boolean"
     },
@@ -1384,8 +1463,8 @@
       "type": "java.lang.String"
     },
     {
-      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
-      "name": "facebook.resource.id",
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "facebook.client.user-authorization-uri",
       "type": "java.lang.String"
     },
     {
@@ -1461,6 +1540,21 @@
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "facebook.resource.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "facebook.resource.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "facebook.resource.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwk",
+      "name": "facebook.resource.jwk.key-set-uri",
       "type": "java.lang.String"
     },
     {
@@ -1625,7 +1719,7 @@
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt",
-      "name": "facebook.resource.jwt.key-value",
+      "name": "facebook.resource.jwt.key-uri",
       "type": "java.lang.String"
     },
     {
@@ -1704,6 +1798,21 @@
       "type": "java.lang.String"
     },
     {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt",
+      "name": "facebook.resource.jwt.key-value",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt",
+      "name": "facebook.resource.jwt.key-value",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "facebook.resource.prefer-token-info",
+      "type": "java.lang.Boolean"
+    },
+    {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "facebook.resource.prefer-token-info",
       "type": "java.lang.Boolean"
@@ -1861,6 +1970,16 @@
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "facebook.resource.service-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "facebook.resource.service-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "facebook.resource.token-info-uri",
       "type": "java.lang.String"
     },
     {
@@ -2025,7 +2144,7 @@
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
-      "name": "facebook.resource.user-info-uri",
+      "name": "facebook.resource.token-type",
       "type": "java.lang.String"
     },
     {
@@ -2101,6 +2220,21 @@
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "facebook.resource.user-info-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "facebook.resource.user-info-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "facebook.resource.user-info-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.access-token-uri",
       "type": "java.lang.String"
     },
     {
@@ -2265,6 +2399,16 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.client-authentication-scheme",
+      "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "github.client.client-authentication-scheme",
       "type": "org.springframework.security.oauth2.common.AuthenticationScheme"
     },
@@ -2421,6 +2565,16 @@
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "github.client.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.client-secret",
       "type": "java.lang.String"
     },
     {
@@ -2585,7 +2739,7 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
-      "name": "github.client.id",
+      "name": "github.client.grant-type",
       "type": "java.lang.String"
     },
     {
@@ -2661,6 +2815,21 @@
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "github.client.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.pre-established-redirect-uri",
       "type": "java.lang.String"
     },
     {
@@ -2825,8 +2994,8 @@
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
-      "name": "github.client.token-name",
-      "type": "java.lang.String"
+      "name": "github.client.scope",
+      "type": "java.util.List<java.lang.String>"
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
@@ -2902,6 +3071,21 @@
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
       "name": "github.client.token-name",
       "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.token-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.token-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.use-current-uri",
+      "type": "java.lang.Boolean"
     },
     {
       "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
@@ -3064,8 +3248,8 @@
       "type": "java.lang.String"
     },
     {
-      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
-      "name": "github.resource.id",
+      "sourceType": "org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails",
+      "name": "github.client.user-authorization-uri",
       "type": "java.lang.String"
     },
     {
@@ -3141,6 +3325,21 @@
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "github.resource.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwk",
+      "name": "github.resource.jwk.key-set-uri",
       "type": "java.lang.String"
     },
     {
@@ -3305,7 +3504,7 @@
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt",
-      "name": "github.resource.jwt.key-value",
+      "name": "github.resource.jwt.key-uri",
       "type": "java.lang.String"
     },
     {
@@ -3384,9 +3583,14 @@
       "type": "java.lang.String"
     },
     {
-      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
-      "name": "github.resource.prefer-token-info",
-      "type": "java.lang.Boolean"
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt",
+      "name": "github.resource.jwt.key-value",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties$Jwt",
+      "name": "github.resource.jwt.key-value",
+      "type": "java.lang.String"
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
@@ -3462,6 +3666,21 @@
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "github.resource.prefer-token-info",
       "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.prefer-token-info",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.prefer-token-info",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.service-id",
+      "type": "java.lang.String"
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
@@ -3625,7 +3844,7 @@
     },
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
-      "name": "github.resource.token-type",
+      "name": "github.resource.token-info-uri",
       "type": "java.lang.String"
     },
     {
@@ -3701,6 +3920,21 @@
     {
       "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
       "name": "github.resource.token-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.token-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.token-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties",
+      "name": "github.resource.user-info-uri",
       "type": "java.lang.String"
     },
     {

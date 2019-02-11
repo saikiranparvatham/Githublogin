@@ -45,14 +45,13 @@
             }
           });
           $.get("/user", function(data) {
-              $("#user").html(data.name);
-              if (data.name == undefined) {
-                logout();
-              }else{
-                $(".unauthenticated").hide();
-                $(".authenticated").show();
-              }
-            });
+            $("#user").html(data.name);
+            if (data.name == undefined) {
+              logout();
+            }else{
+            	window.location = "home.html";
+            }
+          });
           var logout = function() {
             $.post("/logout", function() {
               $("#user").html('');
