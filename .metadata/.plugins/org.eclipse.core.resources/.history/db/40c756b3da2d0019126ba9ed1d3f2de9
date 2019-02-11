@@ -16,7 +16,13 @@
 <body>
     <h1>Logged in sccessfully</h1>
     
-
+    <ul>
+    <li>Profile</li>
+    <li>Browse Products</li>
+    <li>Show my cart</li>
+    <li>My orders history</li>
+    <li>
+    </ul>
     <div class="container unauthenticated">
         <div>
             With Facebook: <a href="/login/facebook">click here</a>
@@ -30,14 +36,6 @@
         <div>
             <button onClick="logout()" class="btn btn-primary">Logout</button>
         </div>
-           <ul>
-    <li><a href = "">My Profile</a></li>
-    <li><a href = "">Browse Products</a></li>
-    <li><a href = "">Show my cart</a></li>
-    <li><a href = "">My orders history</a></li>
-     <li><a href = "">My wallet</a></li>
-    <li>
-    </ul>
     </div>
     <script type="text/javascript" src="/webjars/js-cookie/js.cookie.js"></script>
     <script type="text/javascript">
